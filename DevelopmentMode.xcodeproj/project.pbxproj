@@ -15,6 +15,16 @@
 		FA84D5B71C7415E6006F2B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA84D5B51C7415E6006F2B13 /* LaunchScreen.storyboard */; };
 		FA84D5C21C7415E6006F2B13 /* DevelopmentModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84D5C11C7415E6006F2B13 /* DevelopmentModeTests.m */; };
 		FA84D5CD1C7415E6006F2B13 /* DevelopmentModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84D5CC1C7415E6006F2B13 /* DevelopmentModeUITests.m */; };
+		FA84D5EA1C741702006F2B13 /* ProtocolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84D5E81C741702006F2B13 /* ProtocolViewController.m */; };
+		FA84D5EB1C741702006F2B13 /* ProtocolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA84D5E91C741702006F2B13 /* ProtocolViewController.xib */; };
+		FA84D5EF1C741B3A006F2B13 /* ObserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84D5ED1C741B3A006F2B13 /* ObserveViewController.m */; };
+		FA84D5F01C741B3A006F2B13 /* ObserveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA84D5EE1C741B3A006F2B13 /* ObserveViewController.xib */; };
+		FA84D5F31C741F11006F2B13 /* KVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84D5F21C741F11006F2B13 /* KVC.m */; };
+		FA84D5F61C742096006F2B13 /* KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84D5F51C742096006F2B13 /* KVO.m */; };
+		FA84D5F91C74330E006F2B13 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84D5F81C74330E006F2B13 /* Model.m */; };
+		FA84D5FD1C74344B006F2B13 /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84D5FB1C74344B006F2B13 /* MVCViewController.m */; };
+		FA84D5FE1C74344B006F2B13 /* MVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA84D5FC1C74344B006F2B13 /* MVCViewController.xib */; };
+		FA84D6001C7434B1006F2B13 /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA84D5FF1C7434B1006F2B13 /* Colors.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,23 @@
 		FA84D5C81C7415E6006F2B13 /* DevelopmentModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevelopmentModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA84D5CC1C7415E6006F2B13 /* DevelopmentModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevelopmentModeUITests.m; sourceTree = "<group>"; };
 		FA84D5CE1C7415E6006F2B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA84D5DA1C741600006F2B13 /* 开发模式.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "开发模式.h"; sourceTree = "<group>"; };
+		FA84D5E71C741702006F2B13 /* ProtocolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolViewController.h; sourceTree = "<group>"; };
+		FA84D5E81C741702006F2B13 /* ProtocolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolViewController.m; sourceTree = "<group>"; };
+		FA84D5E91C741702006F2B13 /* ProtocolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProtocolViewController.xib; sourceTree = "<group>"; };
+		FA84D5EC1C741B3A006F2B13 /* ObserveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserveViewController.h; sourceTree = "<group>"; };
+		FA84D5ED1C741B3A006F2B13 /* ObserveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserveViewController.m; sourceTree = "<group>"; };
+		FA84D5EE1C741B3A006F2B13 /* ObserveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ObserveViewController.xib; sourceTree = "<group>"; };
+		FA84D5F11C741F11006F2B13 /* KVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVC.h; sourceTree = "<group>"; };
+		FA84D5F21C741F11006F2B13 /* KVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVC.m; sourceTree = "<group>"; };
+		FA84D5F41C742096006F2B13 /* KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO.h; sourceTree = "<group>"; };
+		FA84D5F51C742096006F2B13 /* KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO.m; sourceTree = "<group>"; };
+		FA84D5F71C74330E006F2B13 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		FA84D5F81C74330E006F2B13 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		FA84D5FA1C74344B006F2B13 /* MVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
+		FA84D5FB1C74344B006F2B13 /* MVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
+		FA84D5FC1C74344B006F2B13 /* MVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVCViewController.xib; sourceTree = "<group>"; };
+		FA84D5FF1C7434B1006F2B13 /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +128,10 @@
 		FA84D5A61C7415E6006F2B13 /* DevelopmentMode */ = {
 			isa = PBXGroup;
 			children = (
+				FA84D5DD1C74164E006F2B13 /* MVC */,
+				FA84D5DC1C741634006F2B13 /* 观察者 */,
+				FA84D5DB1C741620006F2B13 /* 代理 */,
+				FA84D5DA1C741600006F2B13 /* 开发模式.h */,
 				FA84D5AA1C7415E6006F2B13 /* AppDelegate.h */,
 				FA84D5AB1C7415E6006F2B13 /* AppDelegate.m */,
 				FA84D5AD1C7415E6006F2B13 /* ViewController.h */,
@@ -138,6 +169,43 @@
 				FA84D5CE1C7415E6006F2B13 /* Info.plist */,
 			);
 			path = DevelopmentModeUITests;
+			sourceTree = "<group>";
+		};
+		FA84D5DB1C741620006F2B13 /* 代理 */ = {
+			isa = PBXGroup;
+			children = (
+				FA84D5E71C741702006F2B13 /* ProtocolViewController.h */,
+				FA84D5E81C741702006F2B13 /* ProtocolViewController.m */,
+				FA84D5E91C741702006F2B13 /* ProtocolViewController.xib */,
+			);
+			name = "代理";
+			sourceTree = "<group>";
+		};
+		FA84D5DC1C741634006F2B13 /* 观察者 */ = {
+			isa = PBXGroup;
+			children = (
+				FA84D5EC1C741B3A006F2B13 /* ObserveViewController.h */,
+				FA84D5ED1C741B3A006F2B13 /* ObserveViewController.m */,
+				FA84D5EE1C741B3A006F2B13 /* ObserveViewController.xib */,
+				FA84D5F11C741F11006F2B13 /* KVC.h */,
+				FA84D5F21C741F11006F2B13 /* KVC.m */,
+				FA84D5F41C742096006F2B13 /* KVO.h */,
+				FA84D5F51C742096006F2B13 /* KVO.m */,
+			);
+			name = "观察者";
+			sourceTree = "<group>";
+		};
+		FA84D5DD1C74164E006F2B13 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA84D5F71C74330E006F2B13 /* Model.h */,
+				FA84D5F81C74330E006F2B13 /* Model.m */,
+				FA84D5FA1C74344B006F2B13 /* MVCViewController.h */,
+				FA84D5FB1C74344B006F2B13 /* MVCViewController.m */,
+				FA84D5FC1C74344B006F2B13 /* MVCViewController.xib */,
+				FA84D5FF1C7434B1006F2B13 /* Colors.plist */,
+			);
+			name = MVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +311,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA84D5EB1C741702006F2B13 /* ProtocolViewController.xib in Resources */,
+				FA84D6001C7434B1006F2B13 /* Colors.plist in Resources */,
 				FA84D5B71C7415E6006F2B13 /* LaunchScreen.storyboard in Resources */,
 				FA84D5B41C7415E6006F2B13 /* Assets.xcassets in Resources */,
 				FA84D5B21C7415E6006F2B13 /* Main.storyboard in Resources */,
+				FA84D5F01C741B3A006F2B13 /* ObserveViewController.xib in Resources */,
+				FA84D5FE1C74344B006F2B13 /* MVCViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA84D5FD1C74344B006F2B13 /* MVCViewController.m in Sources */,
+				FA84D5F31C741F11006F2B13 /* KVC.m in Sources */,
+				FA84D5EA1C741702006F2B13 /* ProtocolViewController.m in Sources */,
+				FA84D5EF1C741B3A006F2B13 /* ObserveViewController.m in Sources */,
+				FA84D5F91C74330E006F2B13 /* Model.m in Sources */,
 				FA84D5AF1C7415E6006F2B13 /* ViewController.m in Sources */,
 				FA84D5AC1C7415E6006F2B13 /* AppDelegate.m in Sources */,
 				FA84D5A91C7415E6006F2B13 /* main.m in Sources */,
+				FA84D5F61C742096006F2B13 /* KVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +574,7 @@
 				FA84D5D31C7415E6006F2B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA84D5D41C7415E6006F2B13 /* Build configuration list for PBXNativeTarget "DevelopmentModeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +583,7 @@
 				FA84D5D61C7415E6006F2B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA84D5D71C7415E6006F2B13 /* Build configuration list for PBXNativeTarget "DevelopmentModeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +592,7 @@
 				FA84D5D91C7415E6006F2B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

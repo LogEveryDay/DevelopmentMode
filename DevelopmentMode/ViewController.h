@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)protocolAction:(UIButton *)sender;
+- (IBAction)observeAction:(UIButton *)sender;
+- (IBAction)MVCAction:(UIButton *)sender;
+- (IBAction)SingletonAction:(UIButton *)sender;
+- (IBAction)strategyAction:(UIButton *)sender;
+- (IBAction)factoryAction:(UIButton *)sender;
 
 @end
 
